@@ -1,0 +1,89 @@
+{
+   "destination_addresses" : [ "Jaipur, Rajasthan, Inde", "Gwalior, Madhya Pradesh 474001, Inde" ],
+   "origin_addresses" : [
+      "New Delhi, Delhi 110001, Inde",
+      "Agra, Uttar Pradesh, Inde",
+      "Ahmedabad, Gujarat, Inde"
+   ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "268 km",
+                  "value" : 268160
+               },
+               "duration" : {
+                  "text" : "4 heures 14 minutes",
+                  "value" : 15267
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "329 km",
+                  "value" : 329223
+               },
+               "duration" : {
+                  "text" : "5 heures 13 minutes",
+                  "value" : 18798
+               },
+               "status" : "OK"
+            }
+         ]
+      },
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "239 km",
+                  "value" : 238723
+               },
+               "duration" : {
+                  "text" : "3 heures 55 minutes",
+                  "value" : 14108
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "119 km",
+                  "value" : 119452
+               },
+               "duration" : {
+                  "text" : "2 heures 21 minutes",
+                  "value" : 8437
+               },
+               "status" : "OK"
+            }
+         ]
+      },
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "653 km",
+                  "value" : 652819
+               },
+               "duration" : {
+                  "text" : "9 heures 55 minutes",
+                  "value" : 35726
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "883 km",
+                  "value" : 883072
+               },
+               "duration" : {
+                  "text" : "13 heures 58 minutes",
+                  "value" : 50292
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}
