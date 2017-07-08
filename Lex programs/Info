@@ -1,0 +1,90 @@
+flex 
+
+abc.l
+
+{Definition} Define stuff
+%%
+{rules}
+//regular expression - corresponding actions
+%%
+user subroutines - //User defined functions
+
+Meta CHaracters -
+1) OR = a|b
+2) + = 1 or more, * = 0 or more
+3) ? 0 or 1    Eg - abc? (ab starts and c optional
+
+=====
+Symbol "*" to use * 
+or use \* to finish the meta meaning of *
+
+
+========
+[a-zA-Z] - Any one of them
+If numbers are allowed
+[a-zA-Z0-9]
+["-"]
+[-+]
+
+[a-zA-Z0-9]* 0 or more;
+
+
+Exhaustive list
+________________________
+"a" or \a - Character a even if a is meta character
+a* - Zero or more repition of a
+a+ - One or more repition of a
+a? - Optional a (zero or one)
+a|b - a or b
+(a) - a itself
+[abc] - Any of a,b,c
+[^ab] - Any character except a and b
+[a-d] - Range of chars from a to d
+. - Any character except new line 
+{xyz} - The regular expression with name xyz
+  
+
+
+
+How to run?
+
+lex abc.l
+
+-Creates a C program lex.yy.c will be created.
+Run with gcc compiler
+
+gcc lex.yy.c -ll (lex library files included - [optional])
+./a.out
+
+By file
+./a.out < input
+
+
+Example No 
+
+1) Write a lex program to identify digits, keywords, identifiers etc and give separate count of each.
+
+2) Write a lex program to add line number to files
+Eg :- 
+1
+2
+3
+4
+5
+6
+
+3) Write a lex program to print out single line comments.
+
+4) Write a lex program to convert decimal to hexadecimal.
+
+Hint - n=atoi()
+Hexa-	%x
+
+5)
+	
+6)
+
+
+
+
+
