@@ -1,0 +1,49 @@
+struct node
+	{
+		int data;
+		struct node *next;
+	};
+		
+	struct node *Start=NULL;
+	
+	struct node *Create_ll(struct node *);	
+
+	struct node *display (struct node*);
+	
+	struct node *insert_beg(struct node*);
+	
+
+MALLOC
+		int *ptr
+		ptr= (Int*) malloc(sizeof (int)*n) 
+		Note:	for array n=locations needed)
+			(int *)=type casting
+		
+		(int*) calloc (n,size)
+CALLOC		Note: size=sizeof(int)
+		
+
+EXTRA
+			int opt;
+	do
+	{
+	printf("1. To create a linked list");
+	printf("2. To display a linked list");
+	printf("3. To insert a node at the beginning");
+	printf("4. To insert a node at the end");
+	scanf("%d", &opt);
+	
+
+
+	switch(opt)
+	{
+	case 1: 
+		start=create_ll(start);
+		break; 
+	case 2: start=display(start);
+		break;
+	case 3: start=insert_beg(start);
+		break;
+	case 4: start = insert_end(start);
+		break
+	}	
