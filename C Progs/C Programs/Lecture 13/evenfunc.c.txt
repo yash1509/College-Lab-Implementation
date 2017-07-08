@@ -1,0 +1,13 @@
+include<stdio.h> 
+void numCheck(int a); 
+main() { 
+int num; 
+scanf("%d",&num); 
+numCheck(num); 
+} 
+void numCheck(int a) { 
+if(a%2==0) 
+printf("the number is even"); 
+else 
+printf("the number is odd"); 
+} 

@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#define PI 3.14159
+float carea(float);
+void main()
+{
+  float radius;
+  printf("Enter Radius:");
+  scanf("%f",&radius);
+  carea(radius);
+  getch();
+}
+float carea(float radius)
+{
+  float area;
+  area=PI*radius*radius;
+  printf("Area= %f",area);
+}

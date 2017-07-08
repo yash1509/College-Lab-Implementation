@@ -1,0 +1,19 @@
+#include<stdio.h>
+int rev(int );
+int main()
+{
+ int num,res;  // res = result
+ printf("Enter any number : ");
+ scanf("%d", &num);
+ res = rev(num);
+ printf("Reverse order number = %d",res);
+ return 0;
+}
+
+int rev(int n)
+{
+ int r=0;
+ for(; n>=1; n=n/10)
+   r = r*10 + n%10;
+ return r;
+}
